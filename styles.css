@@ -19,6 +19,10 @@ body {
 }
 .logo {
   display: flex;
+  align-items: center;
+}
+.navbar{
+  display: flex;
   gap: 48px;
 }
 a {
@@ -138,7 +142,7 @@ h3 {
   border: none;
   cursor: pointer;
   font-size: 18px;
-  transition: background-color 0.3s ease;
+  transition: 0.3s ease;
 }
 /* section 22 */
 .father {
@@ -254,6 +258,10 @@ footer {
 }
 footer a {
   color: #ffffff;
+}
+.card-footer ul {
+  display: flex;
+  gap: 48px;
 }
 .card-footer {
   display: flex;
