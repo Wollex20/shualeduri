@@ -234,6 +234,9 @@ h1 {
   flex: 1;
   text-align: center;
 }
+.display-none {
+  display: none;
+}
 /* footer  */
 .container2 {
   max-width: 1640px;
@@ -278,6 +281,15 @@ footer a {
   .bt-class {
     display: none;
   }
+  .phone-icon {
+    width: 44px;
+    height: 44px;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    background-image: url(img/search-phone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   .box2 {
     order: -1;
     width: 335px;
@@ -305,5 +317,49 @@ footer a {
   }
   .flex-foter {
     display: block;
+  }
+  .display-none {
+    display: flex;
+    justify-content: center;
+  }
+  .boxbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    flex: 1;
+  }
+  .box-item .icon {
+    margin-bottom: 5px;
+  }
+  .sell {
+    background: #29b24e;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    position: relative;
+    top: -20px;
+    width: 56px;
+    height: 56px;
+  }
+  .sell .label {
+    color: black;
+    margin-top: 8px;
   }
 }
